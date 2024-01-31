@@ -33,10 +33,10 @@
 
 // Написать программу, которая запрашивает у пользователя его имя и возраст (в годах) и выводит в консоль сообщение ‘Hello, <name>’, если пользователь совершеннолетний, или ‘Hi, <name>’, если пользователь несовершеннолетний.
 
-const username = prompt("Введите свое имя")
-const number = +prompt("Сколько Вам полных лет")
-if (number >= 18) {
-  console.log(`Hello, ${username}`)
-} else {
-  console.log(`Hi, ${username}`)
-}
+// const username = prompt("Введите свое имя")
+// const number = +prompt("Сколько Вам полных лет")
+// if (number >= 18) {
+//   console.log(`Hello, ${username}`)
+// } else {
+//   console.log(`Hi, ${username}`)
+// }
