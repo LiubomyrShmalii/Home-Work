@@ -66,6 +66,6 @@ FROM Products
 WHERE
 Price <= 50
 AND 
-CategoryID = '1' 
+( CategoryID = '1' 
 OR
-CategoryID = '3'
+CategoryID = '3' )
