@@ -69,12 +69,3 @@ AND
 CategoryID = '1' 
 OR
 CategoryID = '3'
-
--- НЕ МОЕ РЕШЕНИЕ!!!! Прошу прокоментировать, без скобок выводит 1 товар с ценой 81.00 ПОЧЕМУ? Я ж указал цена меньшеРавно 50
-SELECT
-ProductName,
-Price
-FROM Products
-WHERE
-Price <= 50
-AND (CategoryID = '1' OR CategoryID = '3')
